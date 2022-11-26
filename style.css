@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#b953d1;
+}
+.container{
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+.container .info h1{
+font-family: 'Montserrat', sans-serif;
+}
+
+.container form{
+    margin: 15px 0 25px;
+}
+
+.container form :where(input , button){
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin:5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.container form input{
+    border: 1px solid #999;
+}
+.container form button{
+    background: #b953d1;
+    color: #fff;
+}
+.container .qr-code{
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
